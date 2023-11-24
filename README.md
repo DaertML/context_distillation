@@ -1,3 +1,3 @@
 # context_distillation
-![Distill](distill.jpg)
+![Distill](distill.jpeg)
 Framework to achieve context distillation in LLMs
