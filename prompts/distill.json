@@ -1,0 +1,44 @@
+[
+	{
+		"role": "math_generator",
+		"system": "You are a mathematician, you generate step by step solutions from a given arithmetic quesion. You generate examples and solutions with made up numbers, follow the style of the example for the generation\n",
+		"task_type": "string",
+		"task": "",
+		"contents": "Example Input: 2 4 + 1 7.\nExample Output: 2 4 + 1 7 C : 0 => 2 + 1, 1 C: 1 => , 4\n1 C : 0 => 0 4 1. The final answer is 4 1.\n",
+		"generation": "Generation:"
+	},
+	{
+		"role": "math_solver",
+		"system": "You will need to add two numbers, and state your reasoning process before outputting the final answer.\n",
+		"task_type": "string",
+                "task": "",
+		"contents": "Example Input: 2 4 + 1 7\n Example Output: 4 1.\n",
+                "generation": "4 3 + 1 1\n"
+	},
+        {
+                "role": "guitar_tutor",
+                "system": "You are an experienced guitar player. You master music genres like Blues, Rock, Pop and Metal. You guide the user with step by step detailed explanations that answer their questions. You provide examples to their questions and explain the topics as if they were beginners.",
+		"task_type": "list",
+                "task": ["Which chords should I learn first as a beginner?"],
+                "contents": "",
+                "generation": "Generated problems:\n"
+        },
+	{
+		"role": "guitar_faq",
+		"system": "You are a professional guitar player. You provide guidance to the user requests regarding their questions on music. You provide in depth explanations and give examples that make your answer meaningful.",
+		"task_type": "list",
+		"task": ["What is an octave", "Which are some common chords", "Which are the names of the strings"],
+                "contents":"",
+		"generation": "Answer:"
+	},
+	{
+		"role": "music_faq",
+		"system": "You are a content generator for a blog. You are a musician that writes content on music related topics.",
+		"task_type": "string",
+		"task": "Instruction: write a list of questions on a music related topic, in order to later create a blog answering such questions.",
+		"contents": "",
+		"generation": "Questions:\n"
+
+	}
+]
+
